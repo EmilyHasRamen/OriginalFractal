@@ -10,7 +10,6 @@ public void draw()
 }
 public void myFractal(float x, float y, float size)
 {
-	//stroke(26, 68, 137);
 	fill(33, 65, 178,50);
 	ellipse(x, y, size, size);
 	ellipse(x-size/2, y-size/2, size-size/2, size-size/2);
